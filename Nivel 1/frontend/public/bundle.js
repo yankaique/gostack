@@ -4,8 +4,8 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 
 var _react = _interopRequireDefault(require("react"));
 
-var _reactDom = require("react-dom");
+var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _App = _interopRequireDefault(require("./App"));
 
-(0, _reactDom.render)( /*#__PURE__*/_react["default"].createElement("h1", null, "Oi"), document.getElementById("root"));
+_reactDom["default"].render( /*#__PURE__*/_react["default"].createElement("h1", null, "Hello World"), document.getElementById("root"));
