@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack serve --mode development",
+    "production": "webpack serve --mode production",
     "babel": "babel src/index.js --out-file public/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
